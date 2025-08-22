@@ -27,7 +27,7 @@ console.log("Nota A1 calculada: ", notaA1)
 let exerciciosA2 = parseFloat(prompt('Qual a nota de exercícios A2? '))
 let trabalhoA2 = parseFloat(prompt('Qual a nota de trabalhos A2? '))
 let provaA2 = parseFloat(prompt('Qual a nota de provas A2? '))
-let notaA2 = calcularNotaA1(exerciciosA2, trabalhoA2, provaA2)
+let notaA2 = calcularNotaA2(exerciciosA2, trabalhoA2, provaA2)
 
 console.log(" ### Calculo da nota A2 ### ")
 console.log("Nota Exercício A2: ", exerciciosA2)
@@ -39,7 +39,7 @@ console.log("Nota A2 calculada: ", notaA2)
 let notaFinal = calcularNotaFinal(notaA1, notaA2)
 
 console.log(" ### Calculo da nota FINAL ### ")
-console.log("A nota final é: ")
+console.log("A nota final é: ", notaFinal)
 
 if (notaFinal >= 5){
     console.log("Parabéns, " + nome + "! Você foi Aprovado(a)!!!")
