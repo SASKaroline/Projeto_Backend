@@ -39,7 +39,6 @@ console.log("Nota A2 calculada: ", notaA2)
 let notaFinal = calcularNotaFinal(notaA1, notaA2)
 
 console.log(" ### Calculo da nota FINAL ### ")
-console.log("A nota final é: ", notaFinal)
 
 if (notaFinal >= 5){
     console.log("Parabéns, " + nome + "! Você foi Aprovado(a)!!!")
