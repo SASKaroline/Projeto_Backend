@@ -3,6 +3,12 @@ const express = require('express')
 // Criar instância do express
 const app = express()
 
+// importar o lib cors
+const cors = require('cors')
+// Desabilita a consfiguração de cors
+// Habilitada o browser para mandar requisição para o seu backens local
+app.use(cors())
+
 // Middlewares (Intermediário)
 // Intermediário de log
 app.use((req, res, next) => {
