@@ -7,3 +7,31 @@ criar o script de start e test:
     "test": "jest",
     "start": "nodemon index.js"
   },
+
+CADASTRO DE PESSOAS (CRUD):
+
+-ID
+-NOME
+-CPF
+-EMAIL
+-DATANASCIMENTO
+
+rota -> /pessoas -> identifica o recurso Pessoa
+
+#Busca
+GET /pessoas
+
+#Busca por ID
+GET /pessoas/:ID
+
+#Criação
+POST /pessoas
+
+#Atualização
+PUT ou PATCH /pessoas/:ID
+
+#Remoção
+DELETE /pessoas/:ID
+
+npm init -y
+npm install express nodemon dotenv mongoose

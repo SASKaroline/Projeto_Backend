@@ -1,9 +1,0 @@
-IESB
-
-Disciplina: Construção de backend
-
-Turma: 2A
-
-Prof: Gustavo Clay
-
-Aluna: Karoline Silva
