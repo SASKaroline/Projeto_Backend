@@ -1,0 +1,21 @@
+{
+  "name": "09-api-empresas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "criar o projeto 09-api-empresas npm init -y npm install express nodemon mongoose dotenv yup criar a pasta src criar o src/index.js criar a pasta src/controllers criar a pasta src/models criar a pastar src/validators adicionar o script de start \"nodemon src/index.js\" adicionar o .env na raiz implementar o index com a conexão com o banco de dados rodar o projeto e verificar se conecta no banco",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10",
+    "yup": "^1.7.1"
+  },
+  "type": "commonjs"
+}
